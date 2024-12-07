@@ -4,25 +4,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+      
+    
 </head>
 <body>
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <span id="close" class="close">&times;</span>
+    <img id="modalImg" class="modal-content">
+    <p id="captionText"></p>
+  </div>
+
+  <script src="scrypt.js"></script>
+    
     <header>
-        header
+        <h1>Review Fortuner</h1>
         <nav>
+
+          
+
             
 
 <ul class="navigation">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Products</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="#design">Design</a></li>
+    <li><a href="#mesin">Mesin</a></li>
+    <li><a href="#fiture">Fiture</a></li>
+    <li><a href="#about">About</a></li>
   </ul>
   
   
         </nav>
     </header>
+
+    <p id="demo"></p>
+
     <main class="main-container">
-        <div id="content">
+        <div id="content" class="konten">
             <p>
                 PT Toyota Astra Honda Motor Motor akan meluncurkan Toyota Fortuner 2025 pada Jumat 6 September 2024. Mobil bergenre SUV ini diprediksi akan hadir dengan desain yang jauh lebih sporty dan mewah.Selain itu Toyota Fortuner 2025 juga disebut-sebut bakal mendapat sentuhan baru di sektor mesin, membuat tenaganya meningkat tanpa harus mengonsumsi lebih banyak.Berikut bocoran Toyota Fortuner 2025
 
@@ -33,10 +53,10 @@ Klik untuk baca: https://www.idntimes.com/automotive/car/ndoro-anom/toyota-fortu
             </p>
            
             <article>
-                <h2>
+                <h2 id="design">
                     1. Desain lebih sporty
 </h2>
-<img src="image/pajero-design.avif">
+<img id="myImg" src="image/pajero-design.avif" alt="Fortuner"  class="clickable">
 <figcaption>toyota-fortuner</figcaption>
                 <p>
                     Toyota Fortuner 2025 dipastikan akan hadir dengan desain yang jauh lebih elegan dan sporty dibandingkan varian sebelumnya. Ini bisa dilihat dari sudut-sudut tajam di bodinya yang kini terlihat sedikit lebih mengotak atau boxy.Selain itu Fortuner generasi terbaru ini kabarnya juga akan hadir dengan dimensi yang lebih besar dibandingkan varian sebelumnya. Hanya saja belum diketahui berapa persisnya dimensi Fortuner terbaru ini. Ubahan paling mencolok mungkin akan terjadi pada sisi depan mobil yang kini terlihat lebih agresif dan modern. Desain yang sporty dan modern ini semakin terlihat elegan berkat kehadiran lampu utama LED. Desain lampu yang fresh juga menjadikan tampilan Fortuner 2025 terlihat lebih segar.
@@ -48,9 +68,9 @@ Klik untuk baca: https://www.idntimes.com/automotive/car/ndoro-anom/toyota-fortu
                 </p>
             </article>
             <article>
-                <h2>
+                <h2 id="mesin">
                     2. Mesin irit bertenaga</h2>
-                    <img src="image/pajero-mesin.avif">
+                    <img id="myImg" class="clickable" alt="Fortuner" src="image/pajero-mesin.avif">
                     <figcaption>toyota-fortuner</figcaption>
                     <p>
                         Toyota Fortuner 2025 konon bakal menggendong mesin hibrida yang memadukan mesin bensin dengan motor listrik. Gabungna keduanya diklaim mampu menghasilkan power sebesar 204 PS dengan torsi tembus 500 Nm. Dengan tenaga sebesar ini, Toyota Fortuner 2025 sudah sangat cukup untuk diajak bermain lumpur di jalur offroad. Apalagi mobil ini juga sudah dibekali penggerak empat roda, ground clearance tinggi, dan beragam mode berkendara off-road.
@@ -63,15 +83,15 @@ Klik untuk baca: https://www.idntimes.com/automotive/car/ndoro-anom/toyota-fortu
                 
             </article>
             <article>
-                <h2>3. Daftar fitur unggulan</h2>
-                <img src="image/pajero-fiture.avif">
+                <h2 id="fiture">3. Daftar fitur unggulan</h2>
+                <img id="myImg"class="clickable" alt="Fortuner" src="image/pajero-fiture.avif">
                 <figcaption>toyota-fortuner</figcaption>
                 <p>Toyota Fortuner 2025 kemungkinan akan mengadopsi sasis tangga TNGA-F, sasis yang juga dipakai di Land Cruiser 250 dan Tacoma. Sasis canggih ini diklaim mampu menyesuaikan beragam dimensi kendaraan serta mendukung penggerak roda semua-konfigurasi, baik bagian depan maupun belakang.&nbsp;</p><p>Sasis yang ringan namun rigid tersebut akan membuat laju Fortuner 2025 lebih stabil dibandingkan varian sebelumnya. Selain sasis yang canggih, Toyota Fortuner juga akan dibekali beragam fitur canggih, seperti Adaptive Cruise Control, Blind Spot Monitoring, Lane Departure Warning, dan Toyota Safety Sense.&nbsp;</p><p>Berapa harga Toyota Fortuner 2025? Sayangnya sampai saat ini belum ada bocora berapa mobil ini akan dibanderol. Tertairk?</p>
             </article>
         </div>
         <aside class="aside">
             <figure>
-            <img src="image/pajero.avif">
+            <img id="myImg" class="clickable" alt="Fortuner" src="image/pajero.avif">
             <figcaption>toyota-fortuner</figcaption>
         </figure>
             <p>
@@ -83,32 +103,25 @@ Artikel ini telah tayang di Idntimes.com dengan judul "Toyota Fortuner 2025 Dilu
 Klik untuk baca:
             </p>
         </aside>
-    </main>
-    <footer class="footer">
-        <div class="footer-content">
+ 
+    </main> <br>
+    <footer  class="footer"  id="footer">
+        <div  id="about" class="footer-content">
           <div class="footer-section about">
             <h2>About Us</h2>
-            <p>We provide top-notch services for your needs. Contact us anytime!</p>
+            <p>thx indosat and Dicoding </p>
           </div>
-          <!-- <div class="footer-section links">
-            <h2>Quick Links</h2>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div> -->
+        
           <div class="footer-section contact">
             <h2>Contact</h2>
-            <p>Email: info@example.com</p>
-            <p>Phone: +123 456 7890</p>
+            <p>Email: bayusatriapurnomo@gmail.com</p>
+            <p>Phone: 082125653573</p>
           </div>
         </div>
         <div class="footer-bottom">
-          &copy; 2024 YourCompany | All rights reserved.
+          &copy; 2024 coderTamvan | All rights reserved.
         </div>
       </footer>
-      
+     
 </body>
 </html> 
